@@ -164,7 +164,7 @@ class ViewController: UIViewController {
         history.text = history.text! + " " + text
     }
    
-    func numberFormatter () -> NSNumberFormatter{
+    func numberFormatter () -> NSNumberFormatter {
         let numberFormatterLoc = NSNumberFormatter()
         numberFormatterLoc.numberStyle = .DecimalStyle
         numberFormatterLoc.maximumFractionDigits = 10
